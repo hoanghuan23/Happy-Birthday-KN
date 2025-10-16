@@ -235,6 +235,8 @@ body {
   color: #333;
 }
 
+.wishText {
+  color: #ef61eb;
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
