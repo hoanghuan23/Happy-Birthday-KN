@@ -48,7 +48,7 @@ body {
 .four .text-box {
   border: 3px solid #aaa;
   border-radius: 5px;
-  margin: 0 auto;
+  margin: -50px auto 0;
   padding: 10px;
   position: relative;
   width: 600px;
@@ -232,11 +232,14 @@ body {
 .hbd-chatbox {
   font-size: 1.2rem;
   line-height: 1.5;
+  font-weight: 500;
   color: #333;
 }
 
-.wishText {
+#wishText {
   color: #ef61eb;
+}
+
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
